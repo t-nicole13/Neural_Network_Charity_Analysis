@@ -24,3 +24,52 @@ Neural networks rely on training data to learn and improve their accuracy overti
 
 
 ## Results
+
+### Data Preprocessing
+- The target variable for both models was 'IS_SUCCESSFUL' because we need to know which investments have been successful so far.
+
+- For both models, the feature variables was every variable not dropped in the dataset except the target.
+
+- Originally, only the EIN and NAME columns were dropped.  For the optimized model, I dropped multiple additional columns from the optimization analysis model they may have caused outliers in the original analysis.
+
+### Compiling, Training, and Evaluation
+- I chose at least 80 neurons for the first layer, 30 neurons for the second layer, and added an additional layer to test my analysis.  I assumed that the large amount of neurons with help the model and increase the accuracy.
+
+- Unfortunately, I was not able to achieve more than 75% accuracy for my model. 
+
+- The steps I took to increase model performance were adding more neurons to the hidden layer, adding an additional hidden layer, changing the activation function, and removing unnecessary columns.
+
+
+### Original Analysis Results
+
+#### Training Data
+
+![Getting Started](images/orig_train.png)
+
+The original training data was only 53% accurate and had a loss of 69%.
+
+#### Test Data
+![Getting Started](images/original_test.png)
+
+The original test data was only about 59% accurate and had a major loss of 92%.
+
+
+### Final Optimized Analysis Results
+
+#### Training Data
+
+![Getting Started](images/opt_train.png)
+
+The optimized training data was only 53% accurate and had a loss of about 69%.
+
+#### Test Data
+![Getting Started](images/opt_test.png)
+
+The optimized test data was only about 55% accurate and had a loss of 69%.
+
+## Summary
+
+There was minimun change in accuracy from the original model to the optimized model.  
+
+I believe an SVM model would be a better alternative for analyzing this type of dataset.  This type of model can handle both processed and unprocessed data.
+
