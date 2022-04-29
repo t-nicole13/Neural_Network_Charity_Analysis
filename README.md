@@ -19,8 +19,9 @@ Neural networks rely on training data to learn and improve their accuracy overti
 - Scikit-Learn 1.0.2
 - Pandas 1.3.4
 
-### Data
+### Data/Sites
 - charity_data.csv (Contains information on organizations that have received funding from Alphabet Soup)
+- https://stackoverflow.com/questions/59069058/save-model-every-10-epochs-tensorflow-keras-v2
 
 
 ## Results
@@ -51,7 +52,7 @@ The original training data was only 53% accurate and had a loss of 69%.
 #### Test Data
 ![Getting Started](images/original_test.png)
 
-The original test data was only about 59% accurate and had a major loss of 92%.
+The original test data was only about 64% accurate and had a major loss of 83%.
 
 
 ### Final Optimized Analysis Results
