@@ -70,7 +70,7 @@ The optimized test data was only about 55% accurate and had a loss of 69%.
 
 ## Summary
 
-There was minimun change in accuracy from the original model to the optimized model.  
+There was minimum change in accuracy from the original model to the optimized model.  
 
 I believe an SVM model would be a better alternative for analyzing this type of dataset.  This type of model can handle both processed and unprocessed data.
 
